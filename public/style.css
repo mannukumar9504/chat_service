@@ -39,13 +39,24 @@ section.chat_section {
     overflow-y: auto;
     padding-top: 40px;
 }
-textarea {
-    width: 100%;
+button {
+    background-color: #fcfcfc;
     border: none;
-    padding: 20px;
+}
+button:hover {
+    cursor: pointer;
+}
+.send_button img {
+    transform: rotate(43deg)
+}
+textarea {
+    width: 80%;
+    border: none;
+    padding: 14px;
     font-size: 16px;
     outline: none;
     background: #eaeaea;
+    resize: none;
 }
 
 .message {

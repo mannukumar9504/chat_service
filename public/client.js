@@ -15,9 +15,10 @@ textArea.addEventListener('keyup', (e) => {
 });
 
 function sendMessage(message) {
+    let sendButtonMessage = document.getElementById('textarea').value;
     let msg = {
         user: name1,
-        message: message.trim()
+        message: message?.trim() || sendButtonMessage?.trim()
     }
     //append
     appendMessage(msg, 'outgoing');
