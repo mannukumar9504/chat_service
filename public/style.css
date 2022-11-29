@@ -82,4 +82,10 @@ textarea {
     left: 0;
     color: #333;
     font-size: 14px;
+
 }
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    textarea {
+        width: 60%;
+    }
+  }
