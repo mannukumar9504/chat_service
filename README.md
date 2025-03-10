@@ -6,3 +6,6 @@ User Manaul for mannu chat and flush service
 3. then you both can start chatting on app.
 
    Key feature :- This is not going to store your any chat any time, "JUST chat and FLUSH"
+
+
+Target audience  -  ANY one can use this JUST FOR FUN.
